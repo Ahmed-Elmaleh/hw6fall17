@@ -17,6 +17,8 @@ rake db:migrate
 
 rake db:seed
 
+wget –qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
 Now you are ready to try out the app.  Enter the following
 command to start the rails server:
 
